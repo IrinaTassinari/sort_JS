@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="filters">
+      <div class="filter-group">
+        <label for="typeFilter">Event type</label>
+        <select id="typeFilter" class="filter-select">
+          <option value="">Any type</option>
+          <option value="online">Online</option>
+          <option value="offline">Offline</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="filterDistance">Distance</label>
+        <select id="filterDistance" class="filter-select">
+          <option value="">Any distance</option>
+          <option value="5">5 km</option>
+          <option value="10">10 km</option>
+          <option value="15">15 km</option>
+          <option value="25">25 km</option>
+          <option value="50">50 km</option>
+          <option value="50">75 km</option>
+          <option value="100">100 km</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="categoryFilter">Category</label>
+        <select id="categoryFilter" class="filter-select">
+          <option value="">Any category</option>
+          <option value="Hobbies and Passions">Hobbies and Passions</option>
+          <option value="Technology">Technology</option>
+          <option value="Business">Business</option>
+          <option value="Health and Wellbeing">Health and Wellbeing</option>
+          <option value="Social Activities">Social Activities</option>
+        </select>
+      </div>
+      <div class="events-list" id="eventList"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+
+
+      
